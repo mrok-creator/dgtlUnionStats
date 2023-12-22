@@ -1,0 +1,43 @@
+day,time,session,view,term_view,ad_click,subid1,subid2,subid3,subid4,campaign,country,keyword,useragent
+2023-12-13,19:19:20,9f8be26958,1,0,0,,,,,721538_Solar Panel Jobs / ZA / AlexIv / [int],,,
+2023-12-13,19:54:24,,1,0,0,,,,,736836_Welding Jobs / AU / AlexIv / [int],,,
+2023-12-13,19:50:22,,1,0,0,,,,,736837_Welding Jobs / DE / AlexIv / [int],,,
+2023-12-13,19:50:46,,1,0,0,,,,,736838_Welding Jobs / CA / AlexIv / [int],,,
+2023-12-13,19:38:56,,1,0,0,,,,,755519_Truck Driver Jobs / UK / AlexIv / [int],,,
+2023-12-13,19:37:11,005590810a,1,0,0,,,,,755520_Truck Driver Jobs / SP / AlexIv / [int],,,
+2023-12-13,19:37:35,,1,0,0,,,,,755521_Truck Driver Jobs / PL / AlexIv / [int],,,
+2023-12-13,19:38:31,1c9a3fde12,1,0,0,,,,,767451_Truck Driver Jobs / NZ / AlexIv / [int],,,
+2023-12-13,19:39:57,,1,0,0,,,,,767456_Truck Driver Jobs / CA / AlexIv / [int],,,
+2023-12-13,19:40:35,,1,0,0,,,,,767474_Truck Driver Jobs / JP / AlexIv / [int],,,
+2023-12-13,19:35:49,01e00db1fe,1,0,0,,,,,767482_Truck Driver Jobs / CH / AlexIv / [int],,,
+2023-12-13,19:40:03,,1,0,0,,,,,767490_Truck Driver Jobs / ZA / AlexIv / [int],,,
+2023-12-13,19:41:12,627a5ef638,1,0,0,,,,,767512_Truck Driver Jobs / AT / AlexIv / [int],,,
+2023-12-13,19:39:10,12f6324d30,1,0,0,,,,,767519_Truck Driver Jobs / RO / AlexIv / [int],,,
+2023-12-13,19:38:34,8e8d5f8c65,1,0,0,,,,,767526_Truck Driver Jobs / IT / AlexIv / [int],,,
+2023-12-13,19:37:43,100efbc0b8,1,0,0,,,,,767542_Truck Driver Jobs / TR / AlexIv / [int],,,
+2023-12-13,19:37:57,,1,0,0,,,,,767586_Truck Driver Jobs / KZ / AlexIv / [int],,,
+2023-12-13,19:39:20,67a9109a0e,1,0,0,,,,,767592_Truck Driver Jobs / NL / AlexIv / [int],,,
+2023-12-13,19:38:04,75f6fea945,1,0,0,,,,,775586_Truck Driver Jobs / FI / AlexIv / [int],,,
+2023-12-13,19:36:42,210ddad3ca,1,0,0,,,,,775601_Truck Driver Jobs / AR / AlexIv / [int],,,
+2023-12-13,19:37:50,9fecb8849c,1,0,0,,,,,780176_Truck Driver Jobs / US / AlexIv / [int],,,
+2023-12-13,19:39:29,8812d01537,1,0,0,,,,,780179_Truck Driver Jobs / AE / AlexIv / [int],,,
+2023-12-13,19:38:52,,1,0,0,,,,,780184_Truck Driver Jobs / QA / AlexIv / [int],,,
+2023-12-13,19:39:39,29814a82b2,1,0,0,,,,,780188_Truck Driver Jobs / HU / AlexIv / [int],,,
+2023-12-13,19:39:57,815e2099a0,1,0,0,,,,,780190_Truck Driver Jobs / PH / AlexIv / [int],,,
+2023-12-13,19:40:12,1cbe6755e5,1,0,0,,,,,780191_Truck Driver Jobs / MA / AlexIv / [int],,,
+2023-12-13,19:16:40,,1,0,0,,,,,791904_Security Jobs / UK / AlexIv / [int],,,
+2023-12-13,19:13:10,,1,0,0,,,,,791913_Security Jobs / CH / AlexIv / [int],,,
+2023-12-13,19:58:18,c5103ee49b,1,0,0,,,,,805918_Contract Jobs / CH / AlexIv / [int],US,,"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+2023-12-13,19:29:26,1af9c76347,1,0,0,910059_Storage Jobs - DE - [fa],Storage Jobs - DE - [fa],1784712956079121|1784712935573553|1784712935573537,5014f0f0-b08c-4feb-a4af-eaf52c3ac000,910059_Storage Jobs - DE - [int] - Viktor,DE,,"Mozilla/5.0 (Linux; Android 13; SM-A236B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36 musical_ly_2023205030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_v"
+2023-12-13,19:28:19,,1,0,0,,,,,910089_Find Jobs - AU - [int] - Viktor,,,
+2023-12-13,19:28:23,6f7377ec3b,1,0,0,,,,,910093_Find Jobs - SE - [int] - Viktor,,,
+2023-12-13,19:28:32,,1,0,0,,,,,910098_Find Jobs - IL - [int] - Viktor,,,
+2023-12-13,19:28:25,,1,0,0,,,,,910101_Find Jobs - BR - [int] - Viktor,,,
+2023-12-13,19:34:18,9b6780695d,1,0,0,{trackingField3},{trackingField5},{trackingField8}|{trackingField6}|1785014387939345,4cfd1d3a-2791-43c5-af8e-4d5055f1d548,917425_Storage Jobs / MY / AlexIv / [int],SG,,"Mozilla/5.0 (Linux; Android 9; CPH1931; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 Mobile Safari/537.36 trill_2022605050 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_version/26.5.5 ByteLocale/en Byt"
+2023-12-13,19:04:57,581efadc0e,1,0,0,TikTok (Tonic) - Ruslan -   922080 - Child Care / ES / Nikita / ES,TikTok (Tonic) - Ruslan -   922080 - Child Care / ES / Nikita / ES | 13.12 | reb9,1785171615143937|1785171605349377|1785171614323745,0909c8c3-7a7e-4392-a1f2-a2c922a85d91,922080_Child Care / ES / Nikita / INT,ES,,"Mozilla/5.0 (Linux; Android 13; SM-F731B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36 musical_ly_2023205030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_v"
+2023-12-13,19:18:04,69378dda5a,1,0,0,TikTok (Tonic) - Ruslan -   922080 - Child Care / ES / Nikita / ES,TikTok (Tonic) - Ruslan -   922080 - Child Care / ES / Nikita / ES | 13.12 | reb10,1785171778106386|1785171756141586|1785171614323745,11f491d6-13e7-44e8-9938-7032c4bae4d1,922080_Child Care / ES / Nikita / INT,ES,,"Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 musical_ly_32.4.0 JsSdk/2.0 NetType/WIFI Channel/App Store ByteLocale/es Region/ES isDarkMode/0 WKWebView/1 RevealType/Dialog BytedanceWebvi"
+2023-12-13,19:47:29,b47482a0b8,1,0,0,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN | 13.12  | det10,1785175549043762|1785175546195986|1785175543217170,678a2367-a9e9-4131-a959-eb26f6fc4f81,922089_Daycare Service / QA / Nikita / INT,QA,,"Mozilla/5.0 (Linux; Android 13; CPH2473 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36 musical_ly_2023205030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_ve"
+2023-12-13,19:47:45,b47482a0b8,0,1,0,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN | 13.12  | det10,1785175549043762|1785175546195986|1785175543217170,678a2367-a9e9-4131-a959-eb26f6fc4f81,922089_Daycare Service / QA / Nikita / INT,QA,Daycare Near Me,"Mozilla/5.0 (Linux; Android 13; CPH2473 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36 musical_ly_2023205030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_ve"
+2023-12-13,19:47:47,b47482a0b8,0,0,1,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN | 13.12  | det10,1785175549043762|1785175546195986|1785175543217170,678a2367-a9e9-4131-a959-eb26f6fc4f81,922089_Daycare Service / QA / Nikita / INT,QA,Daycare Near Me,"Mozilla/5.0 (Linux; Android 13; CPH2473 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.193 Mobile Safari/537.36 musical_ly_2023205030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_ve"
+2023-12-13,19:52:44,b0e225e5bf,1,0,0,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN | 13.12  | det11,1785175533659186|1785175433241601|1785175543217170,58201430-733e-4b0f-9055-967bec44cc6b,922089_Daycare Service / QA / Nikita / INT,QA,,"Mozilla/5.0 (Linux; Android 14; SM-S916B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.43 Mobile Safari/537.36 musical_ly_2023204030 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_ve"
+2023-12-13,19:56:33,70fa729d05,1,0,0,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN,TikTok (Tonic) - Ruslan - 922089 - Daycare Service / QA / Nikita / EN | 13.12  | det10,1785175549043762|1785175546195986|1785175543217170,f77519a3-76e7-4db1-a6e1-329468637c44,922089_Daycare Service / QA / Nikita / INT,QA,,"Mozilla/5.0 (Linux; Android 10; STK-L21 Build/HUAWEISTK-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 trill_2023104030 JsSdk/1.0 NetType/4G Channel/googleplay AppName/musical_ly app_version/31.4.3 B"

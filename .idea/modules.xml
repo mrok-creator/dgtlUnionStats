@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../test_proj/DGTLUnion/dgtlUnion-main/.idea/dgtlUnion-main.iml" filepath="$PROJECT_DIR$/../test_proj/DGTLUnion/dgtlUnion-main/.idea/dgtlUnion-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nodejs-starter.iml" filepath="$PROJECT_DIR$/.idea/nodejs-starter.iml" />
+    </modules>
+  </component>
+</project>
