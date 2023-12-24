@@ -1,5 +1,50 @@
 const fs = require('fs');
 const csv = require('csv-parser');
+const path = require('path');
+const {createError} = require("../../helpers");
+
+const directoryPath = path.join(__dirname, '../../events');
+
+async function countDailyCtr(dateParam) {
+    const arrDataForDay = [];
+
+    return new Promise((resolve, reject) => {
+        fs.readdir(directoryPath, async (err, files) => {
+            if (err) {
+                console.error('Directory read error:', err);
+                reject(err);
+                return;
+            }
+
+            const arrFilesForDate = files.filter(file => file.startsWith(`sessions_${dateParam}_`));
+            for (const oneFile of arrFilesForDate) {
+                const filePath = `${directoryPath}/${oneFile}`
+                arrDataForDay.push(await getAllDataForDay(filePath));
+            }
+
+            const flattenedArray = [].concat(...arrDataForDay);
+            resolve(calculateCTR(flattenedArray));
+        });
+    });
+}
+
+async function countPeriodCtrStats(from, to) {
+    const startDate = new Date(from);
+    const endDate = new Date(to);
+
+    if (isNaN(startDate.getTime()) || isNaN(endDate.getTime()) || !isValidDate(from) || !isValidDate(to)) {
+        throw createError('Invalid date format. Please use YYYY-MM-DD.', 400);
+    }
+
+    const files = await fs.promises.readdir(directoryPath);
+
+    const arrFilesForPeriod = files.filter(file => {
+        const fileDate = getFileDate(file);
+        return fileDate >= startDate && fileDate <= endDate;
+    });
+
+    return getDailyStats(arrFilesForPeriod, directoryPath);
+}
 
 async function getAllDataForDay(filePath) {
     try {
@@ -48,7 +93,7 @@ function calculateCTR(data) {
             campaign.uniqueSessions = Array.from(campaign.uniqueSessions);
         });
 
-        const ctrResults = Object.entries(campaignData).map(([campaign, { uniqueSessions, adClicks }]) => {
+        return Object.entries(campaignData).map(([campaign, { uniqueSessions, adClicks }]) => {
             const numberOfUniqueSessions = uniqueSessions.length;
             const ctr = numberOfUniqueSessions > 0 ? (adClicks / numberOfUniqueSessions) * 100 : 0;
             return {
@@ -56,8 +101,6 @@ function calculateCTR(data) {
                 ctr: ctr.toFixed(2),
             };
         });
-
-        return ctrResults;
     } catch (error) {
         console.error('Error in CTR calculation:', error.message);
         throw error;
@@ -117,9 +160,6 @@ function isValidDate(dateString) {
 }
 
 module.exports = {
-    getAllDataForDay,
-    calculateCTR,
-    getDailyStats,
-    getFileDate,
-    isValidDate
+    countDailyCtr,
+    countPeriodCtrStats,
 };

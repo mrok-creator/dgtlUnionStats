@@ -2,7 +2,7 @@ const express = require('express')
 const logger = require('morgan')
 const cors = require('cors')
 
-const ctrRouter = require('./routes/api/ctr')
+const ctrRouter = require('./routes/ctr')
 
 const app = express()
 
